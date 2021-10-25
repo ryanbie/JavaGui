@@ -9,10 +9,13 @@ public class Main {
         
         JButton button = new JButton("Click Me");
         
+        JLabel label = new JLabel("Number of clicks: ");
+        
         JPanel panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(0, 1));
         panel.add(button);
+        panel.add(label);
         
 
         frame.add(panel, BorderLayout.CENTER);
